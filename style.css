@@ -7,7 +7,7 @@ i {
 }
 .image{
 	height: 100vh;
-	background-image: url("img/sunglasses.jpg");
+	background-image: url("sunglasses.jpg");
 	opacity: 0.8;
 }
 #welcome {
