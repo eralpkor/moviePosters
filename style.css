@@ -1,0 +1,37 @@
+
+.navbar{
+  margin-bottom: 0;
+}
+i {
+	color: white;
+}
+.image{
+	height: 100vh;
+	background-image: url("img/sunglasses.jpg");
+	opacity: 0.8;
+}
+#welcome {
+	opacity: 0.9;
+	background-color: white;
+	height: auto;
+	width: 70%;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+}
+h1, h3 {
+  color: black;
+	text-align: center;
+	font-weight: 300;
+	text-shadow: 1px 1px #FFFFFF;
+}
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+.search{
+	opacity: 0.9;
+	width: 30%;
+	margin: 10% auto
+}
+
