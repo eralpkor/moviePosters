@@ -1,11 +1,11 @@
 
 $(document).ready(function(){
-	$('#target').submit(function(event){
+	$('#target').submit(function(e){
 		$("#data").html("");
 		let baseURL = 'https://www.omdbapi.com/?s=';
 		let query = $('#mySearch').val();
 		let url = baseURL + query + '&apikey=thewdb';
-		event.preventDefault();
+		event.preventDefault(e);
 		$.getJSON(url, function(data){
 			let search = data.Search;
 			// Add search data to html	
