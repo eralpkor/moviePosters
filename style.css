@@ -6,21 +6,7 @@
 i {
 	color: white;
 }
-/* .image{
-	height: auto;
 
-  opacity: 0.8;
-  
-    content: "";
-    background: url("sunglasses.jpg");
-    opacity: 0.8;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    position: absolute;
-    z-index: -1;   
-} */
 
 body {
   height: auto;
@@ -66,10 +52,6 @@ a:hover{
 	width: 30%;
 	margin: 10vh auto auto auto;
 }
-
-/* #data {
-  margin: auto;
-} */
 
 
 .data {
