@@ -4,19 +4,28 @@ $(document).ready(function(){
 		$("#data").html("");
 		let baseURL = 'https://www.omdbapi.com/?s=';
 		let query = $('#mySearch').val();
-		let url = baseURL + query + '&apikey=thewdb';
+    let url = baseURL + query + '&apikey=thewdb';
+    
 		event.preventDefault(e);
 		$.getJSON(url, function(data){
 			let search = data.Search;
 			// Add search data to html	
 			$(search).each(function(index, value){
-				console.log(value.Actors);
-				$('#data').append($('<li><a href="' + value.Poster + '">' + value.Title + ' - ' + value.Year + '</a></li>'));
+				console.log(value);
+				$('#data').append($('<li><a href="' + value.Poster + '">' + value.Title + ' - ' + value.Year + ' - ' + 'Type: ' + value.Type + '</a></li>'));
 				$('.colorText').css('background', "#E9F0F2");
 			});	
 		});
 	});
 });
+
+
+
+
+
+
+
+
 
 window.onload = function(){
 	let today = new Date();

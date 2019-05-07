@@ -1,18 +1,36 @@
 
 .navbar{
-  margin-bottom: 0;
+  margin: auto;
 }
+
 i {
 	color: white;
 }
-.image{
-	height: 100vh;
+/* .image{
+	height: auto;
+
+  opacity: 0.8;
+  
+    content: "";
+    background: url("sunglasses.jpg");
+    opacity: 0.8;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
+} */
+
+body {
+  height: auto;
 	background-image: url("sunglasses.jpg");
-	opacity: 0.8;
+	
 }
+
 #welcome {
 	opacity: 0.9;
-	background-color: white;
+	background-color: rgb(216, 211, 211);
 	height: auto;
 	width: 70%;
 	margin-top: 20px;
@@ -25,11 +43,44 @@ h1, h3 {
 	font-weight: 300;
 	text-shadow: 1px 1px #FFFFFF;
 }
+
 ul {
   list-style-type: none;
   padding-left: 0;
 }
+
+a {
+  color: black;
+  text-shadow: #777777;
+  font-size: 2vh;
+}
+
+a:hover{
+  
+  text-decoration: none;
+  color: rgb(161, 36, 36);
+}
+
 .search{
 	opacity: 0.9;
 	width: 30%;
-	margin: 10% auto
+	margin: 10vh auto auto auto;
+}
+
+/* #data {
+  margin: auto;
+} */
+
+
+.data {
+  opacity: 0.9;
+  width: 70vh;
+  height: auto;
+}
+
+@media only screen and (max-width: 600px) {
+  .data {
+    width: 40vh;
+    font-size: 2vh;
+  }
+}
