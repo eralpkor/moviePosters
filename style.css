@@ -33,6 +33,11 @@ h1, h3 {
 ul {
   list-style-type: none;
   padding-left: 0;
+  padding-top: 10px;
+}
+
+li {
+  margin: 2px 3px 3px 15px;
 }
 
 a {
